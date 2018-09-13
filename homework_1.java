@@ -14,7 +14,6 @@ public class homework_1 {
     }
 
     static void ChapterOne() {
-        System.out.println("Task_1");
         byte bt;
         bt = 123;
         short st;
@@ -37,12 +36,10 @@ public class homework_1 {
     }
 
     static double ChapterTwo(double a, double b, double c, double d) {
-        System.out.println("Task_2");
         return a * (b + (c / d));
     }
 
     static boolean ChapterThree(int a, int b) {
-        System.out.println("Task_3");
         int sum = a + b;
         if (sum > 10 && sum < 20)
             return true;
@@ -51,7 +48,6 @@ public class homework_1 {
     }
 
     static void ChapterFour(int a) {
-        System.out.println("Task_4");
         if (a >= 0)
             System.out.println("Positive number: " + a);
         else
@@ -59,20 +55,14 @@ public class homework_1 {
     }
 
     static boolean ChapterFive(int a) {
-        System.out.println("Task_5");
-        if (a < 0)
-            return true;
-        else
-            return false;
+        return a < 0;
     }
 
     static void ChapterSix(String name) {
-        System.out.println("Task_6");
         System.out.println("Hello, " + name + "!");
     }
 
     static void ChapterSeven(int y) {
-        System.out.println("Task_7");
         if (y % 4 == 0) {
             if ((y % 100 != 0) || (y % 400 == 0)) {
                 System.out.println(y + " is leap year");
