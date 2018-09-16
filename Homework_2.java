@@ -1,7 +1,6 @@
 /**
  * Plieva Maya. Homework_2
  */
-
 import java.util.Arrays;
 
 public class Homework_2 {
