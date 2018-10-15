@@ -1,2 +1,1 @@
-# java
-Java lvl1
+Java 1. Homeworks and lessons. Oct, 2018.
